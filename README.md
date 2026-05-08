@@ -8,7 +8,10 @@
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)]([paolaslima624@gmail.com](mailto:paolaslima624@gmail.com))
 [![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](Curriculo_Paola_(1).pdf)
 
- ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+👨‍💻 Sobre
+Atualmente cursando o 1º semestre período de engenharia de software na UNICID.
+
+💻 IDEs/Editors
 
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
 
@@ -18,6 +21,7 @@ Atualmente cursando o 1º semestre período de engenharia de software na UNICID.
 🎨 Design
 
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 🤖 Inteligência Artificial & Ciência de Dados
 
