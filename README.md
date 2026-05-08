@@ -14,6 +14,12 @@ Atualmente cursando o 1º semestre período de engenharia de software na UNICID.
 
 Tenho curiosidade em aprender novas tecnologias, desenvolver minhas habilidades na programação e transformar ideias em projetos funcionais e bem estruturados. Além da parte técnica, valorizo muito criatividade, colaboração e evolução constante dentro da tecnologia.
 
+📋 Languages
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+ 
 💻 IDEs/Editors
 
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
