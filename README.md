@@ -30,7 +30,8 @@ Atualmente cursando o 1º semestre período de engenharia de software na UNICID.
 | :--- | :--- | :---: |
 | **Algoritmo de Auditoria de Dados** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./algoritmo_de_auditoria_de_dados/) |
 | **EX2 - Engenharia de Soluções Lógicas** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex2/) |
-| **EX2 - EX8 - Sistema de Auditoria de Recursos Corporativos** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex8/) |
+| **EX4 - EX4 - Traduzindo Lógica para Python** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex4/) |
+| **EX8 - EX8 - Sistema de Auditoria de Recursos Corporativos** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex8/) |
  
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
