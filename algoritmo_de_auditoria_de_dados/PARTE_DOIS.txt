@@ -1,0 +1,35 @@
+LIMITE_SEGURANCA = 10000.0
+# Função
+def analisar_vendas (v1, v2, v3):
+  global LIMITE_SEGURANCA
+  # Cálculo da média
+  media = (v1 + v2 + v3) / 3
+  print (f"Média das vendas: {media:.2f}")
+  # Verifica limite
+  if media > LIMITE_SEGURANCA:
+    print ("SISTEMA EM QUARENTENA")
+    # Verifica discrepância (5x maior que a média)
+    if v1 > media * 5 or v2 > media * 5 or v3 > media *5:
+      print ("REVISÃO MANUAL NECESSÀRIA")
+      # CASO venda alta seja legitima
+      alterar =  input("alguma venda alta é legitima? (s/n)")
+      if alterar.lower () == "s":
+        novo_limite = float (input ("Digite o novo limite:"))
+        LIMITE_SEGURANCA = novo_limite
+        print (f"Novo limite de segurança: {LIMITE_SEGURANCA}")
+
+    # Mostrar tipos (casting)
+    print ("Tipos das variaveis:")
+    print(f"v1: {type(v1)}")
+    print(f"v2: {type(v2)}")
+    print(f"v3: {type(v3)}")
+    print(f"media: {type(media)}")
+
+
+# Entrada de dados (casting para float)
+venda1 = float(input("Digite o valor da venda 1: "))
+venda2 = float(input("Digite o valor da venda 2: "))
+venda3 = float(input("Digite o valor da venda 3: "))
+
+# Chamada da função
+analisar_vendas(venda1, venda2, venda3)
