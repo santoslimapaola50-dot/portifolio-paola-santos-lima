@@ -17,7 +17,7 @@
 #### 🗃️ Programação de computadores
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Algoritmo de Auditoria de Dados** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./projeto-algoritmo_de_auditoria_de_dados/) |
+| **Algoritmo de Auditoria de Dados** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./projeto_algoritmo_de_auditoria_de_dados/) |
  
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
