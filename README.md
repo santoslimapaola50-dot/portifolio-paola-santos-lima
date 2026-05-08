@@ -4,30 +4,32 @@
 ---
  
 ### 📫 Contato & Redes Sociais
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/paola-s-6675962a8)
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)]([paolaslima624@gmail.com](mailto:paolaslima624@gmail.com))
 [![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](Curriculo_Paola_(1).pdf)
 
 👨‍💻 Sobre
-Atualmente cursando o 1º semestre período de engenharia de software na UNICID.
+Atualmente cursando o 1º semestre período de engenharia de software na UNICID. Grande interesse pela área de desenvolvimento front-end, especialmente pela parte visual e criativa dos projetos. Gosto de trabalhar com interfaces, design e organização visual, buscando sempre criar experiências agradáveis e modernas para os usuários.
+
+Tenho curiosidade em aprender novas tecnologias, desenvolver minhas habilidades na programação e transformar ideias em projetos funcionais e bem estruturados. Além da parte técnica, valorizo muito criatividade, colaboração e evolução constante dentro da tecnologia.
 
 💻 IDEs/Editors
 
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
 
-👨‍💻 Sobre
-Atualmente cursando o 1º semestre período de engenharia de software na UNICID.
 
 🎨 Design
 
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 🤖 Inteligência Artificial & Ciência de Dados
 
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
-	![GitHub Copilot](https://img.shields.io/badge/github_copilot-8957E5?style=for-the-badge&logo=github-copilot&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/github_copilot-8957E5?style=for-the-badge&logo=github-copilot&logoColor=white)
+
 ### 📂 Portfólio de Projetos
  
 #### 🗃️ Programação de computadores
