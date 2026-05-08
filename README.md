@@ -43,9 +43,9 @@ Tenho curiosidade em aprender novas tecnologias, desenvolver minhas habilidades 
 #### 🗃️ Programação de computadores
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Algoritmo de Auditoria de Dados** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./algoritmo_de_auditoria_de_dados/) |
+| **Algoritmo de Auditoria de Dados** | Desenvolver um programa que analise a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias.
+](./algoritmo_de_auditoria_de_dados/) |
 | **EX2 - Engenharia de Soluções Lógicas** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex2/) |
-| **EX3 - Modularização** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex8/) |
 | **EX4 - EX4 - Traduzindo Lógica para Python** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./modularizcao/) |
 | **EX8 - EX8 - Sistema de Auditoria de Recursos Corporativos** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex8/) |
  
