@@ -1,8 +1,131 @@
-Seus envios foram feitos com êxito!successful!
-Disciplina: 2218546, Programação de Computadores - N4_ (Not) _TAT_UNICID
-Avaliação: EX8 - Sistema de Auditoria de Recursos Corporativos
+import time
 
-Data de envio: 08/05/26 00:08 (BRT) (Late)
-Tamanho do envio: 2,7 KB
-Remetente: Paola Santos Lima UNICID_Engenharia de Software (Bacharelado)_1N1_20261
-Número de confirmação: fac9e444126d4176b38fcafdd85c1cde
+
+
+# 1. O DECORATOR DE AUDITORIA
+
+def auditor(funcao):
+
+  def wrapper(*args, **kwargs):
+
+    print("-" * 30)
+
+    print("RELATÓRIO DE AUDITORIA")
+
+    # Registre o tempo inicial
+
+    inicio = time.time()
+
+     
+
+    # Mostre os argumentos (exigência do exercício)
+
+    print(f"Setores ignorados: {args[1:]}") # O primeiro arg é o dict
+
+     
+
+    # Chama a função real
+
+    resultado = funcao(*args, **kwargs)
+
+     
+
+    # Calcula o tempo final
+
+    fim = time.time()
+
+    print(f"Tempo de execução: {fim - inicio:.6f} segundos")
+
+    print("-" * 30)
+
+    return resultado
+
+  return wrapper
+
+
+
+# 2. A FUNÇÃO RECURSIVA
+
+@auditor
+
+def calcular_orcamento(dados, *ignorados, **cambio):
+
+  total = 0
+
+   
+
+  # Se o que recebemos for um número, é o valor final de um setor
+
+  if isinstance(dados, (int, float)):
+
+    return dados
+
+   
+
+  # Se for um dicionário, precisamos navegar nele
+
+  if isinstance(dados, dict):
+
+    for setor, sub_setor in dados.items():
+
+      # Verificação da regra de auditoria: ignorar setores via *args
+
+      if setor in ignorados:
+
+        continue # Pula este setor e tudo que estiver dentro dele
+
+       
+
+      # Chamada recursiva: a função chama a si mesma para entrar na árvore
+
+      total += calcular_orcamento(sub_setor, *ignorados)
+
+
+
+  # Aplicação de kwargs para conversão de moeda
+
+  taxa = cambio.get('taxa_cambio', 1)
+
+  return total * taxa
+
+
+
+# 3. MASSA DE DADOS (Dicionário aninhado)
+
+empresa_dados = {
+
+  "Matriz": {
+
+    "TI": {
+
+      "Infra": 50000,
+
+      "Desenvolvimento": {"Backend": 80000, "Frontend": 70000}
+
+    },
+
+    "RH": {
+
+      "Recrutamento": 25000,
+
+      "Folha": 15000
+
+    },
+
+    "Marketing": 40000
+
+  }
+
+}
+
+
+
+# 4. EXECUÇÃO
+
+if __name__ == "__main__":
+
+  # Exemplo: calculando tudo, ignorando 'RH' e convertendo com taxa 5.20
+
+  resultado_final = calcular_orcamento(empresa_dados, "RH", taxa_cambio=5.20)
+
+  print(f"Orçamento Total Consolidado: R$ {resultado_final:.2f}")
