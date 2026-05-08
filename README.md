@@ -43,8 +43,7 @@ Tenho curiosidade em aprender novas tecnologias, desenvolver minhas habilidades 
 #### 🗃️ Programação de computadores
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Algoritmo de Auditoria de Dados** | Desenvolver um programa que analise a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias.
-[Ver Projeto](./algoritmo_de_auditoria_de_dados/). |
+| **Algoritmo de Auditoria de Dados** | Desenvolver um programa que analise a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias| [Ver Projeto](./algoritmo_de_auditoria_de_dados/). |
 | **Engenharia de Soluções Lógicas** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex2/) |
 | **Modularização** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./modularizcao/) |
 | **Sistema de Auditoria de Recursos Corporativos** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex8/) |
