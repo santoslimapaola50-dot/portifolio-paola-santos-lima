@@ -1,0 +1,337 @@
+# Parte 1
+
+
+def classificar_iqa(iqa):
+
+  match iqa:
+
+    case valor if valor <= 50:
+
+      return "Boa"
+
+    case valor if valor <= 100:
+
+      return "Moderada"
+
+    case valor if valor <= 150:
+
+      return "Ruim"
+
+    case valor if valor <= 200:
+
+      return "Muito Ruim"
+
+    case _:
+
+      return "Péssima"
+
+
+
+
+def calcular_nota_conforto(temp, umidade, iqa):
+
+  # Temperatura ideal aproximada
+
+  ajuste_temp = 10 - abs(temp - 24)
+
+
+
+  # Umidade ideal
+
+  ajuste_umidade = 10 - abs(umidade - 50) / 4
+
+
+
+  # Qualidade do ar influencia bastante
+
+  ajuste_iqa = 10 - (iqa / 18)
+
+
+
+  ajuste_temp = max(0, ajuste_temp)
+
+  ajuste_umidade = max(0, ajuste_umidade)
+
+  ajuste_iqa = max(0, ajuste_iqa)
+
+
+
+  media = (ajuste_temp + ajuste_umidade + ajuste_iqa) / 3
+
+  return round(media, 2)
+
+
+
+
+def analisar_microclima():
+
+  # Dados adaptados para região de Guaianases (zona leste)
+
+  dados_locais = [
+
+    ["Praça com árvores (perto de casa)", 24, 72, 40, 27, 65, 55],
+
+    ["Avenida com muito movimento", 26, 68, 95, 32, 52, 145],
+
+    ["Ponto de ônibus sem cobertura", 25, 70, 75, 31, 58, 120]
+
+  ]
+
+
+
+  horarios = ["Manhã", "Tarde"]
+
+  nomes_metricas = ["Temperatura (°C)", "Umidade (%)", "IQA"]
+
+
+
+  for local in dados_locais:
+
+    print("\n============================")
+
+    print(f"Local analisado: {local[0]}")
+
+
+
+    indice = 1
+
+
+
+    for horario in horarios:
+
+      print(f"\n--- {horario} ---")
+
+
+
+      dados = local[indice:indice+3]
+
+
+
+      # loop interno (for aninhado)
+
+      for i in range(len(dados)):
+
+        print(f"{nomes_metricas[i]}: {dados[i]}")
+
+
+
+      temp, umidade, iqa = dados
+
+
+
+      classificacao = classificar_iqa(iqa)
+
+      conforto = calcular_nota_conforto(temp, umidade, iqa)
+
+
+
+      print(f"Classificação do ar: {classificacao}")
+
+      print(f"Nota de conforto urbano: {conforto}")
+
+
+
+      indice += 3
+
+
+
+
+
+# Executar
+
+analisar_microclima()
+
+
+
+# Parte 2
+
+
+def simulacao_evacuacao():
+
+  # Caminho baseado em uma casa simples (quarto → rua)
+
+  locais = [
+
+    "Quarto",
+
+    "Corredor",
+
+    "Sala",
+
+    "Cozinha",
+
+    "Área de serviço",
+
+    "Portão"
+
+  ]
+
+
+
+  # Estado realista de cada ponto
+
+  estados = [
+
+    "chave",      # chave no quarto
+
+    "aperto",      # corredor estreito
+
+    "porta_trancada",  # porta da sala
+
+    "fumaca",      # cozinha com fumaça
+
+    "obstaculo",    # área com objetos no chão
+
+    "saida"       # rua
+
+  ]
+
+
+
+  posicao = 0
+
+  energia = 10
+
+  inventario = []
+
+
+
+  print("Simulação iniciada...\n")
+
+
+
+  while energia > 0:
+
+    print(f"Local atual: {locais[posicao]}")
+
+    estado_atual = estados[posicao]
+
+
+
+    # Estrutura de decisão com if aninhado
+
+    if estado_atual == "chave":
+
+      print("Você encontrou uma chave no quarto.")
+
+      inventario.append("chave")
+
+
+
+    elif estado_atual == "porta_trancada":
+
+      print("Existe uma porta trancada.")
+
+
+
+      if "chave" in inventario:
+
+        print("Você usou a chave e conseguiu abrir.")
+
+      else:
+
+        print("Sem chave! Voltando para procurar...")
+
+        posicao -= 1
+
+        energia -= 1
+
+        continue
+
+
+
+    elif estado_atual == "fumaca":
+
+      print("Ambiente com muita fumaça.")
+
+
+
+      if energia > 3:
+
+        print("Você atravessou segurando a respiração.")
+
+        energia -= 3
+
+      else:
+
+        print("Sem energia suficiente! Recuando...")
+
+        posicao -= 1
+
+        energia -= 1
+
+        continue
+
+
+
+    elif estado_atual == "obstaculo":
+
+      print("Há objetos no chão atrapalhando o caminho.")
+
+
+
+      if energia > 1:
+
+        print("Você desviou com cuidado.")
+
+        energia -= 1
+
+      else:
+
+        print("Cansado demais, você voltou.")
+
+        posicao -= 1
+
+        energia -= 1
+
+        continue
+
+
+
+    elif estado_atual == "aperto":
+
+      print("Corredor estreito, passagem difícil.")
+
+      energia -= 1
+
+
+
+    elif estado_atual == "saida":
+
+      print("Você chegou ao portão e saiu para a rua!")
+
+      break
+
+
+
+    else:
+
+      print("Caminho livre.")
+
+
+
+    posicao += 1
+
+    energia -= 1
+
+
+
+    if posicao >= len(locais):
+
+      print("Fim do trajeto.")
+
+      break
+
+
+
+  if energia <= 0:
+
+    print("\nVocê ficou sem energia antes de sair.")
+
+
+
+
+
+# Executar
+
+simulacao_evacuacao()
