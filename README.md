@@ -47,6 +47,7 @@ Tenho curiosidade em aprender novas tecnologias, desenvolver minhas habilidades 
 | **Engenharia de Soluções Lógicas** | Desenvolver uma solução algorítmica para um problema complexo do mundo real, partindo da abstração visual até a validação lógica.| [Ver Projeto](./ex2/) |
 | **Modularização** | Atividade unplugged em duplas para projetar a lógica modular de um sistema de troco sem usar computadores.| [Ver Projeto](./modularizcao/) |
 | **Traduzindo Lógica para Python** | Implementação de algoritmos modulares em pseudocódigo para resolver problemas de vendas, clima, notas e finanças através da decomposição e do pensamento computacional.| [Ver Projeto](./ex4/) |
+| **Engenharia de Contexto e Lógica Física** | IAplicar os conceitos de Listas, Estruturas de Repetição (for, while), Estruturas de Decisão (if/else, match-case), Funções e Operadores Complexos na resolução de problemas do mundo real, exigindo coleta de dados manual e mapeamento espacial.| [Ver Projeto](./ex5/) |
 | **Desenhando Emojis com Dados** | 	Manipular listas, tuplas e dicionários usando loops aninhados para criar e modificar a "arte" de um emoji.| [Ver Projeto](./ex6/) |
 | **Sistema de Auditoria de Recursos Corporativos** | USimular a estrutura hierárquica de uma empresa em Python e calcular recursivamente seu orçamento, aplicando conceitos de recursão, *args, **kwargs e decorators de auditoria.| [Ver Projeto](./ex8/) |
 
