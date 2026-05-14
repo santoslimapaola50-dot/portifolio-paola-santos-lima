@@ -43,11 +43,11 @@ Tenho curiosidade em aprender novas tecnologias, desenvolver minhas habilidades 
 #### 🗃️ Programação de computadores
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Algoritmo de Auditoria de Dados** | Desenvolver um programa que analise a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias| [Ver Projeto](./algoritmo_de_auditoria_de_dados/). |
-| **Engenharia de Soluções Lógicas** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex2/) |
-| **Modularização** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./modularizcao/) |
-| **Traduzindo Lógica para Python** | Cada um representa uma função complexa. Sua tarefa é escrever o código equivalente em Python, garantindo o uso correto de tipos de dados, estruturas de repetição e condicionais.| [Ver Projeto](./ex4/) |
-| **Sistema de Auditoria de Recursos Corporativos** | Um programa que analisa a consistencia de dados finceiros, ultilizando escopo global/local para parametro de segurança e logica condicional para detecção de anamalias.| [Ver Projeto](./ex8/) |
+| **Algoritmo de Auditoria de Dados** | Desenvolver um programa que analise a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias.| [Ver Projeto](./algoritmo_de_auditoria_de_dados/). |
+| **Engenharia de Soluções Lógicas** | Desenvolver uma solução algorítmica para um problema complexo do mundo real, partindo da abstração visual até a validação lógica.| [Ver Projeto](./ex2/) |
+| **Modularização** | Atividade unplugged em duplas para projetar a lógica modular de um sistema de troco sem usar computadores.| [Ver Projeto](./modularizcao/) |
+| **Traduzindo Lógica para Python** | Implementação de algoritmos modulares em pseudocódigo para resolver problemas de vendas, clima, notas e finanças através da decomposição e do pensamento computacional.  .| [Ver Projeto](./ex4/) |
+| **Sistema de Auditoria de Recursos Corporativos** | USimular a estrutura hierárquica de uma empresa em Python e calcular recursivamente seu orçamento, aplicando conceitos de recursão, *args, **kwargs e decorators de auditoria.| [Ver Projeto](./ex8/) |
 
  
 #### 🤖 Inteligência Artificial
