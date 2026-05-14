@@ -1,0 +1,178 @@
+# Desafio 1: O Criador de Emojis (Pixels RGB)
+# Estrutura base do emoji
+
+emoji_data = {
+
+  "nome": "Smile",
+
+  "grade": [
+
+    [(255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0)], # Linha 0
+
+    [(255, 255, 0), (0, 0, 0), (255, 255, 0), (0, 0, 0), (255, 255, 0)], # Linha 1 (Olhos)
+
+    [(255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0)], # Linha 2
+
+    [(255, 255, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (255, 255, 0)], # Linha 3 (Boca)
+
+    [(255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0)] # Linha 4
+
+  ]
+
+}
+
+
+
+# Iteração e modificação dos pixels amarelos
+
+for nome, grade in emoji_data.items():
+
+  if nome == "grade":
+
+    for i in range(len(grade)): # Para cada linha
+
+      for j in range(len(grade[i])): # Para cada pixel na linha
+
+        if grade[i][j] == (255, 255, 0): # Se o pixel for amarelo
+
+          # Aplica o filtro de sombra (reduzindo o brilho pela metade)
+
+          grade[i][j] = (grade[i][j][0] // 2, grade[i][j][1] // 2, grade[i][j][2] // 2)
+
+
+
+# Exibe o resultado após o filtro de sombra
+
+for linha in emoji_data["grade"]:
+
+  print(linha)
+
+
+
+# Desafio 2: Matrizes Musicais (Transposição)
+# Estrutura base da biblioteca musical
+
+biblioteca_musical = {
+
+  "Toques": [
+
+    {"Alegre": ([440, 480], [520, 560])},
+
+    {"Triste": ([200, 150], [100, 50])}
+
+  ]
+
+}
+
+
+
+# Transposição das matrizes de notas
+
+for categoria in biblioteca_musical["Toques"]:
+
+  for chave, notas in categoria.items():
+
+    # A transposição é feita trocando as linhas pelas colunas
+
+    notas_transpostas = list(zip(*notas)) # Zip une as linhas como colunas
+
+
+
+    # Atualizando as notas transpostas no dicionário
+
+    categoria[chave] = notas_transpostas
+
+
+
+# Exibe as notas após a transposição
+
+print(biblioteca_musical)
+
+
+
+# Desafio 3: O Integrador (Criação Livre)
+# Estrutura para a Playlist de Imagens
+
+playlist_imagens = {
+
+  "Nome": "Playlist de Emojis e Música",
+
+  "Emojis": [
+
+    {"Nome": "Feliz", "Grade": [
+
+      [(255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0)],
+
+      [(255, 255, 0), (0, 0, 0), (255, 255, 0), (0, 0, 0), (255, 255, 0)],
+
+      [(255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0)],
+
+      [(255, 255, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (255, 255, 0)],
+
+      [(255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0)]
+
+    ]},
+
+    {"Nome": "Triste", "Grade": [
+
+      [(255, 255, 0), (255, 255, 0), (0, 0, 0), (0, 0, 0), (255, 255, 0)],
+
+      [(255, 255, 0), (255, 255, 0), (255, 255, 0), (0, 0, 0), (255, 255, 0)],
+
+      [(255, 255, 0), (0, 0, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0)],
+
+      [(255, 255, 0), (0, 0, 0), (0, 0, 0), (255, 255, 0), (255, 255, 0)],
+
+      [(255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0), (255, 255, 0)]
+
+    ]}
+
+  ],
+
+  "Música": {
+
+    "Toques": [
+
+      {"Alegre": ([440, 480], [520, 560])},
+
+      {"Triste": ([200, 150], [100, 50])}
+
+    ]
+
+  }
+
+}
+
+
+
+# Iterando sobre a Playlist de Emojis
+
+for categoria, dados in playlist_imagens.items():
+
+  if categoria == "Emojis":
+
+    for emoji in dados:
+
+      for linha in emoji["Grade"]:
+
+        for i in range(len(linha)):
+
+          if linha[i] == (255, 255, 0):
+
+            linha[i] = (linha[i][0] // 2, linha[i][1] // 2, linha[i][2] // 2) # Aplica filtro de sombra
+
+  elif categoria == "Música":
+
+    for categoria_musical in dados["Toques"]:
+
+      for chave, notas in categoria_musical.items():
+
+        notas_transpostas = list(zip(*notas)) # Transpor as notas
+
+        categoria_musical[chave] = notas_transpostas
+
+
+
+# Exibe o resultado após as alterações
+
+print(playlist_imagens)
