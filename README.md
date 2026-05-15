@@ -49,7 +49,7 @@ Tenho curiosidade em aprender novas tecnologias, desenvolver minhas habilidades 
 | **Traduzindo Lógica para Python** | Implementação de algoritmos modulares em pseudocódigo para resolver problemas de vendas, clima, notas e finanças através da decomposição e do pensamento computacional.| [Ver Projeto](./ex4/) |
 | **Engenharia de Contexto e Lógica Física** |Aplicar listas, estruturas de repetição, decisão, funções e operadores complexos na resolução de problemas reais, com coleta de dados e mapeamento espacial.| [Ver Projeto](./ex5/) |
 | **Desenhando Emojis com Dados** | 	Manipular listas, tuplas e dicionários usando loops aninhados para criar e modificar a "arte" de um emoji.| [Ver Projeto](./ex6/) |
-| **Sistema de Auditoria de Recursos Corporativos** | USimular a estrutura hierárquica de uma empresa em Python e calcular recursivamente seu orçamento, aplicando conceitos de recursão, *args, **kwargs e decorators de auditoria.| [Ver Projeto](./ex8/) |
+| **Sistema de Auditoria de Recursos Corporativos** | Simular a estrutura hierárquica de uma empresa em Python e calcular seu orçamento de forma recursiva, aplicando conceitos como recursão, *args, **kwargs e decorators para auditoria.| [Ver Projeto](./ex8/) |
 
  
 #### 🤖 Inteligência Artificial
