@@ -43,7 +43,6 @@ Tenho curiosidade em aprender novas tecnologias, desenvolver minhas habilidades 
 #### 🗃️ Programação de computadores
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **teste** | Desenvolvimento de algoritmos modulares em pseudocódigo para gestão financeira, climática e escolar, aplicando a decomposição e o isolamento de escopo para garantir a segurança e a coesão do sistema.| [Ver Projeto](./python/). |
 | **Algoritmo de Auditoria de Dados** | Desenvolvimento de algoritmos modulares em pseudocódigo para gestão financeira, climática e escolar, aplicando a decomposição e o isolamento de escopo para garantir a segurança e a coesão do sistema.| [Ver Projeto](./algoritmo_de_auditoria_de_dados/). |
 | **Engenharia de Soluções Lógicas** | Desenvolver uma solução algorítmica para um problema complexo do mundo real, partindo da abstração visual até a validação lógica.| [Ver Projeto](./ex2/) |
 | **Modularização** | Criação de algoritmos modulares em pseudocódigo para automação financeira e análise de dados, aplicando os pilares de decomposição e isolamento de escopo para garantir a segurança e a coesão do sistema.| [Ver Projeto](./modularizcao/) |
